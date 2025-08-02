@@ -1,0 +1,84 @@
+.Form-cont{
+    width: 100%;
+    background-color: white;
+    height: max-content;
+    padding: 2rem 0.7rem 1.5rem 1rem;
+    background-color: rgb(89, 109, 147);
+    border-radius: 1.5rem;
+    opacity: 0.8;
+    border: 1px solid whitesmoke;
+}
+.Form-h{
+    color: white;
+    font-weight: 600;
+}
+.Form-input{
+    border: none;
+    border-bottom: 2px solid #000;
+    background-color: transparent;
+    outline: none;
+    padding: 0px;
+    margin-right: 2rem;
+}
+.Form-input:hover{
+    transform: translateY(1px);
+}
+.Form-input:focus{
+    border-bottom: 3px solid white;
+}
+.Form-input::placeholder{
+    color: whitesmoke;
+    font-size: small;
+    
+}
+.Form-field {
+    width: 50%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+.Form-label {
+    color: whitesmoke;
+    font-size: small;
+    font-weight: 500;
+
+}
+
+.textarea{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+.Form-agree{
+    font-size: 0.7rem;
+    color: white;
+    margin-left: 5px;
+}
+.Form-btn{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.Form-button{
+    width: 100%;
+    font-weight: bold;
+}
+.Form-button:hover{
+    transform: translateZ(2px);
+}
+.Form-button:active{
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+.Form-errMsg{
+    color:darkred;
+    font-weight: bold;
+    text-align: center;
+}
+.Form-msg{
+    color: darkgreen;
+    font-weight: bold;
+    text-align: center;
+}

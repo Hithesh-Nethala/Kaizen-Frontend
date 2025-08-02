@@ -1,0 +1,31 @@
+.About-cont{
+    border-radius: 1.5rem;
+    width:100%;
+    background-color: white;
+    padding: 0.7rem 0.7rem 1rem 0.7rem;
+    margin-top: 1rem;
+    background-color:rgb(234, 225, 210);
+    box-shadow: 2px 2px 4px rgb(41, 41, 41);
+}
+.About-h{
+    margin:0px;
+    font-size: 1.5rem;
+    color: rgb(73, 32, 110);
+}
+.About-p{
+    margin: 3px 0px 5px 0px;
+}
+.About-li{
+    margin-left: 1rem;
+}
+@media (max-width:923px){
+    .About-h{
+        font-size: 1.35rem;
+    }
+    .About-li{
+        font-size: 0.8rem;
+    }
+    .About-p{
+        font-size: 1rem;
+    }
+}

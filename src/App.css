@@ -1,38 +1,65 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.main-cont{
+  background-image: url('/public/Kaizen-bg.avif');
+  height: 100vh;
+  background-size:cover ;
+  padding-top: 1rem;
+  padding-left: 1rem;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-direction: row;
+  justify-content:space-around;
+}
+.main-leftsection{
+  width: 42%;
+}
+.main-rightsection{
+  width: 42%;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media (max-width:923px){
+  .main-cont{
+    padding-top: 0.65rem;
+    padding-left: 0.4rem;
+    background-size: cover;
+    height:max-content;
+    padding-bottom: 2rem;
   }
-  to {
-    transform: rotate(360deg);
+  .main-leftsection{
+    width: 47%;
+  }
+  .main-rightsection{
+    width: 47%;
+  }
+}
+
+@media (max-width: 606px) {
+  .main-cont {
+    flex-direction: column;
+    align-items: center;
+    padding: 0.5rem;
+    height: auto;
+  }
+
+  .main-leftsection,
+  .main-rightsection {
+    width: 100%;
+  }
+
+  .main-leftsection {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .about-wrapper {
+    order: 1;
+    margin-bottom: 1rem;
+  }
+
+  .contact-wrapper {
+    order: 2;
+    margin-bottom: 1rem;
+  }
+
+  .main-rightsection {
+    order: 3;
   }
 }

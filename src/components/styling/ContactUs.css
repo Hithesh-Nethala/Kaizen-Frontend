@@ -1,0 +1,102 @@
+.contact-cont{
+    border-radius: 1.5rem;
+    width:100%;
+    background-color: white;
+    padding-right: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1.3rem;
+    height:52%;
+    box-shadow: 2px 2px 4px rgb(41, 41, 41);
+}
+.contact-relative{
+    position: relative;
+}
+.contact-p{
+    text-align: right;
+    margin: 0px;
+}
+.contact-curve{
+    width: max-content;
+    margin-left: auto;
+    margin-right: auto;
+    background:linear-gradient(180deg,rgb(87, 21, 117),rgb(47, 28, 141));
+    border-radius: 6.5rem;
+}
+.contact-btn{
+    border: 0px;
+    background-color: rgb(193, 156, 107);
+    padding: 0.65rem;
+    border-radius: 1rem;
+    color:white;
+}
+.contact-btn:hover{
+    background-color: rgb(175, 141, 97);
+}
+.contact-btn:active{
+    transform: translateY(-2px) scale(1.1);
+    transition: transform 0.3s ease;
+}
+.contact-button{
+    text-align: end;
+}
+.contact-cont2{
+    left: 3%;
+    width:48%;
+    position: absolute;
+    top:2rem;
+    transform: translateX(3%);
+    background-color: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(6px);
+    border-radius: 10px;
+    z-index: 10;
+    padding-left: 0.4rem;
+    height: 85%;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    
+}
+.contact-cont2-p{
+    padding: 0px;
+    margin: 0px;
+    font-size: 1.65rem;
+    font-weight: 600;
+}
+.contact-cont2-p span{
+    color: grey;
+}
+.contact-cont2-shield{
+    margin: 0px;
+    background-color:lightsteelblue;
+    width: max-content;
+    padding: 5px;
+    border-radius: 1rem;
+}
+.check{
+    background-color:rgb(202, 202, 224);
+}
+.balance{
+    background-color: rgb(226, 196, 155);
+}
+.contact-cont2-p1{
+    font-weight: 600;
+}
+@media (max-width:923px){
+    .contact-cont{
+        padding-right: 0.5rem;
+        padding-top: 0.65rem;
+        padding-bottom: 0.8rem;
+        height: max-content;
+    }
+    .contact-btn{
+        width: 6rem;
+        height: 2.5rem;
+        padding: 0.5rem;
+    }
+    .contact-cont2{
+        width:50%;
+    }
+    .contact-cont2-p1{
+        font-size: 0.85rem;
+    }
+}
